@@ -1,0 +1,63 @@
+name: getx_pattern_template
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.3 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  
+  # State Management
+  get: 4.6.5
+
+  # Cache-LocalStorage
+  get_storage:
+
+  # Network
+  http:
+  firebase_analytics: 
+  firebase_core: 
+  connectivity_plus:
+
+  # Images
+  flutter_svg:
+  cached_network_image:
+  lottie:
+
+  # Utils
+  equatable:
+  dropdown_search:
+  intl:
+  shimmer:
+  syncfusion_flutter_datagrid: 
+  syncfusion_flutter_pdfviewer: 
+  restart_app:
+  flutter_rating_bar:
+  card_swiper:
+
+
+
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  lints: 2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/svg/
+    - assets/fonts/
+    - assets/lotties/
+    - assets/jsons/
+
+  # fonts:
+    #   - family: Poppins
+    #     fonts:
+    #       - asset: fonts/poppins/Poppins-Light.ttf    
